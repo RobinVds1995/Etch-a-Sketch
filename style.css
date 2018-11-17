@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    height: 100%; width: 100%; 
+}
+.inside-container {
+    text-align: center;
+    display: box;
+}
+
+.black {
+    background: black;
+}
